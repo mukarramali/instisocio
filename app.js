@@ -67,6 +67,9 @@ app.get('/users', function(req,res){
 		});
 });
 
+app.get('/show', function(req,res){
+	res.send('Welcome!');
+});
 
 app.get('/users/:userid', function(req,res){
 
